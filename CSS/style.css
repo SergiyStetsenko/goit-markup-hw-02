@@ -1,43 +1,71 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
 body {
-  color: #212121;
-  background: #e5e5e5;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
   margin: 0;
 }
 /* header */
 .logo {
   color: #000000;
 }
-.logo:hover {
-  color: #2196f3;
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 .color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 ul li {
   list-style: none;
 }
-.contacts-list {
-  color: #757575;
-}
+
 /* site-naw */
 .site-naw .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-naw .link:hover,
 .site-naw .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .background {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .site-naw .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.contacts-color {
+  color: var(--title-text-color);
+}
+.contacts-color:hover,
+.contacts-color:focus {
+  color: var(--accent-color);
 }
 
 /*Секция героя*/
+button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+h1 {
+  color: #ffffff;
+}
 /*Секция преимущества*/
+p {
+  color: var(--title-text-color);
+}
 
-/* цвет основного текста #212121 */ /* вторичный цвет текста #757575 */
-/* синий для виделений акцент #2196F3 */ /* белый цвет  #FFFFFF */
-/* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6); */
+/*команда*/
+.section {
+  background-color: #f5f4fa;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* синий для виделений акцент #2196F3 */
+/* белый цвет  #FFFFFF */
+/* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6);*/
 /* черный цвет для лого #000000 */
