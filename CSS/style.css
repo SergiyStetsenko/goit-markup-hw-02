@@ -10,7 +10,7 @@ body {
 }
 /* header */
 .logo {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 .logo:hover,
 .logo:focus {
@@ -19,11 +19,11 @@ body {
 .color {
   color: var(--accent-color);
 }
+
+/* site-naw */
 ul li {
   list-style: none;
 }
-
-/* site-naw */
 .site-naw .link {
   color: var(--primary-text-color);
 }
@@ -49,6 +49,7 @@ ul li {
 button {
   color: #ffffff;
   background-color: var(--accent-color);
+  border: #ffffff;
 }
 h1 {
   color: #ffffff;
@@ -63,6 +64,20 @@ p {
   background-color: #f5f4fa;
 }
 
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+}
+
+.white {
+  color: #ffffff;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* синий для виделений акцент #2196F3 */
