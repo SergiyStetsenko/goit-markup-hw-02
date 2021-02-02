@@ -11,6 +11,7 @@ body {
 /* header */
 .logo {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
@@ -24,6 +25,7 @@ ul li {
 }
 .site-naw .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .site-naw .link:hover,
 .site-naw .link:focus {
@@ -37,12 +39,16 @@ ul li {
 }
 .contacts-color {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .contacts-color:hover,
 .contacts-color:focus {
   color: var(--accent-color);
 }
-
+/*main*/
+h1 {
+  color: #ffffff;
+}
 /*подвал*/
 .bottom {
   background-color: #2f303a;

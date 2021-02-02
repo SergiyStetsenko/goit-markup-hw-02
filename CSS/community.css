@@ -1,0 +1,12 @@
+.mani {
+  background-color: #f5f4fa;
+  border: none;
+}
+.mani:hover,
+.mani:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.fon {
+  background-color: #ffffff;
+}
