@@ -19,8 +19,6 @@ body {
 .color {
   color: var(--accent-color);
 }
-
-/* site-naw */
 ul li {
   list-style: none;
 }
@@ -45,30 +43,10 @@ ul li {
   color: var(--accent-color);
 }
 
-/*Секция героя*/
-button {
-  color: #ffffff;
-  background-color: var(--accent-color);
-  border: #ffffff;
-}
-h1 {
-  color: #ffffff;
-}
-/*Секция преимущества*/
-p {
-  color: var(--title-text-color);
-}
-
-/*команда*/
-.section {
-  background-color: #f5f4fa;
-}
-
 /*подвал*/
 .bottom {
   background-color: #2f303a;
 }
-
 .white {
   color: #ffffff;
 }
@@ -78,9 +56,3 @@ p {
 .address {
   color: rgba(255, 255, 255, 0.6);
 }
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* синий для виделений акцент #2196F3 */
-/* белый цвет  #FFFFFF */
-/* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6);*/
-/* черный цвет для лого #000000 */
