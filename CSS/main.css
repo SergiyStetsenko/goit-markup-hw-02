@@ -50,20 +50,57 @@ button {
   color: #ffffff;
   background-color: var(--accent-color);
   border: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 h1 {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /*Секция преимущества*/
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 p {
   color: var(--title-text-color);
+}
+.second {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* наша работа*/
+.important {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
 /*команда*/
 .section {
   background-color: #f5f4fa;
 }
-
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18px;
+}
+.item-en {
+  font-size: 16px;
+  line-height: 1.18;
+}
 /*подвал*/
 .bottom {
   background-color: #2f303a;
@@ -83,4 +120,3 @@ p {
 /* синий для виделений акцент #2196F3 */
 /* белый цвет  #FFFFFF */
 /* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6);*/
-/* черный цвет для лого #000000 */

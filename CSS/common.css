@@ -7,11 +7,17 @@ body {
   color: var(--primary-text-color);
   background-color: #e5e5e5;
   margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 /* header */
 .logo {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo:hover,
 .logo:focus {
@@ -20,21 +26,27 @@ body {
 .color {
   color: var(--accent-color);
 }
+.site-naw .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 ul li {
   list-style: none;
 }
-.site-naw .link {
+.link {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.site-naw .link:hover,
-.site-naw .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 .background {
   background-color: #ffffff;
 }
-.site-naw .link.current {
+.link.current {
   color: var(--accent-color);
 }
 .contacts-color {
@@ -53,12 +65,25 @@ h1 {
 .bottom {
   background-color: #2f303a;
 }
+.bot-logo {
+  font-size: 26px;
+  line-height: 1.2;
+}
 .white {
   color: #ffffff;
+}
+.white-adderess {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .new {
   color: var(--accent-color);
 }
 .address {
   color: rgba(255, 255, 255, 0.6);
+}
+.info {
+  font-size: 14px;
+  line-height: 1.71;
 }
