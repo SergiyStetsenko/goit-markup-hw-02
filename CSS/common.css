@@ -26,7 +26,13 @@ body {
 .color {
   color: var(--accent-color);
 }
-.site-naw .contacts {
+.site-naw {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
