@@ -20,7 +20,6 @@ body {
   color: var(--accent-color);
 }
 
-/* site-naw */
 ul li {
   list-style: none;
 }
@@ -55,7 +54,6 @@ button {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 h1 {
   color: #ffffff;
@@ -84,7 +82,7 @@ p {
 .important {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -95,7 +93,7 @@ p {
 .item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 .item-en {
   font-size: 16px;
