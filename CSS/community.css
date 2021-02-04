@@ -19,6 +19,10 @@ button {
 }
 
 /*основное меню страницы*/
+li a {
+  text-decoration: none;
+  display: block;
+}
 .fon {
   background-color: #ffffff;
 }
@@ -27,6 +31,7 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 .site {
   font-size: 16px;
